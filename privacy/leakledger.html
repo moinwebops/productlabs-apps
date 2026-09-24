@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>LeakLedger Privacy Policy</title>
+<meta name="description" content="How LeakLedger: Refrigerant Log handles your records. Your records stay on your phone.">
+<style>
+  :root {
+    --primary: #0E6E6E;
+    --on-primary: #FFFFFF;
+    --accent: #FF7A59;
+    --on-accent: #1A1C1C;
+    --bg: #F4F8F7;
+    --surface: #FFFFFF;
+    --text: #162020;
+    --muted: #465756;
+    --border: #D3E2E0;
+    --callout: #E6F3F1;
+    --header-a: #0E6E6E;
+    --header-b: #0A5555;
+    --shadow: 0 1px 2px rgba(14, 110, 110, 0.08), 0 4px 16px rgba(14, 110, 110, 0.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --primary: #4FD1C5;
+      --on-primary: #00201D;
+      --bg: #111817;
+      --surface: #172221;
+      --text: #E2ECEA;
+      --muted: #A8BAB7;
+      --border: #2A3B39;
+      --callout: #1A2B29;
+      --header-a: #0E6E6E;
+      --header-b: #083F3F;
+      --shadow: none;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  a { color: var(--primary); text-underline-offset: 2px; }
+  a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+  header {
+    background: linear-gradient(135deg, var(--header-a), var(--header-b));
+    color: #FFFFFF;
+    padding: 28px 20px 36px;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  .brand { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; }
+  .brand svg { flex: none; }
+  .brand-name { font-weight: 700; font-size: 20px; letter-spacing: 0.2px; }
+  .brand-sub { font-size: 14px; opacity: 0.92; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0 0 12px; letter-spacing: -0.3px; }
+  .meta { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; font-size: 15px; }
+  .pill {
+    background: var(--accent);
+    color: var(--on-accent);
+    font-weight: 700;
+    font-size: 13px;
+    padding: 4px 10px;
+    border-radius: 999px;
+  }
+  main { padding: 0 20px 48px; }
+  .summary {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+    padding: 20px 22px;
+    margin: -20px auto 28px;
+    max-width: 760px;
+  }
+  .summary h2 { margin-top: 0; }
+  .summary ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+  .summary li { display: grid; grid-template-columns: 28px 1fr; gap: 10px; align-items: start; }
+  .tick {
+    width: 24px; height: 24px; border-radius: 50%;
+    background: var(--callout); color: var(--primary);
+    display: inline-flex; align-items: center; justify-content: center;
+    margin-top: 2px;
+  }
+  section { max-width: 760px; margin: 0 auto; padding: 4px 0 8px; border-top: 1px solid var(--border); }
+  section:first-of-type { border-top: 0; }
+  h2 { font-size: 21px; line-height: 1.3; margin: 22px 0 8px; color: var(--primary); }
+  p, li { max-width: 70ch; }
+  ul.plain { padding-left: 22px; margin: 8px 0 12px; }
+  ul.plain li { margin: 4px 0; }
+  .callout {
+    background: var(--callout);
+    border-left: 4px solid var(--accent);
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin: 12px 0;
+  }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0 12px; font-size: 16px; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 8px; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 600; font-size: 14px; text-transform: uppercase; letter-spacing: 0.4px; }
+  td:first-child { font-weight: 600; white-space: nowrap; }
+  .muted { color: var(--muted); }
+  footer { max-width: 760px; margin: 0 auto; padding: 20px; color: var(--muted); font-size: 14px; }
+  @media (max-width: 480px) {
+    h1 { font-size: 26px; }
+    body { font-size: 16px; }
+    td:first-child { white-space: normal; }
+    table, thead, tbody, tr, th, td { display: block; }
+    thead { display: none; }
+    tr { border-bottom: 1px solid var(--border); padding: 8px 0; }
+    td { border: 0; padding: 2px 0; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="brand">
+      <svg width="40" height="40" viewBox="0 0 40 40" aria-hidden="true">
+        <rect x="0" y="0" width="40" height="40" rx="10" fill="rgba(255,255,255,0.14)"/>
+        <path d="M20 7c4.8 6.2 9 11.2 9 16.2A9 9 0 0 1 11 23.2C11 18.2 15.2 13.2 20 7z" fill="#FFFFFF"/>
+        <path d="M15.5 22.5h9M15.5 26h9M15.5 29.5h6" stroke="#0E6E6E" stroke-width="1.8" stroke-linecap="round"/>
+        <circle cx="30.5" cy="10.5" r="3" fill="#FF7A59"/>
+      </svg>
+      <div>
+        <div class="brand-name">LeakLedger</div>
+        <div class="brand-sub">Refrigerant Log · by Product Labs</div>
+      </div>
+    </div>
+    <h1>Privacy Policy</h1>
+    <div class="meta">
+      <span class="pill">Effective September 24, 2026</span>
+      <span>Applies to the LeakLedger Android app (com.productlabs.leakledger)</span>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="summary" role="region" aria-labelledby="short">
+    <h2 id="short">The short version</h2>
+    <ul>
+      <li><span class="tick" aria-hidden="true">✓</span><span><strong>Your records stay on your phone.</strong> LeakLedger has no server and no cloud account. We never receive your customers, appliances, photos or service records.</span></li>
+      <li><span class="tick" aria-hidden="true">✓</span><span><strong>No account, no ads.</strong> The app contains no advertising, analytics or crash-reporting SDKs.</span></li>
+      <li><span class="tick" aria-hidden="true">✓</span><span><strong>You decide what leaves your phone.</strong> A PDF, CSV or backup goes only where you send it.</span></li>
+      <li><span class="tick" aria-hidden="true">✓</span><span><strong>Google Play handles payments.</strong> We never see your card details.</span></li>
+    </ul>
+  </div>
+
+  <section aria-labelledby="who">
+    <h2 id="who">1. Who we are</h2>
+    <p>LeakLedger: Refrigerant Log ("LeakLedger", "the app") is made by <strong>Product Labs</strong> ("we", "us"). If you have a question about this policy, email us at <a href="mailto:productlabsbd@gmail.com">productlabsbd@gmail.com</a>.</p>
+  </section>
+
+  <section aria-labelledby="stored">
+    <h2 id="stored">2. What LeakLedger stores on your phone</h2>
+    <p>Everything you enter is saved in LeakLedger's private storage on your device:</p>
+    <ul class="plain">
+      <li>Customers and sites: names, contact details and addresses you type in.</li>
+      <li>Appliances: type, refrigerant, full charge, model, serial number and location.</li>
+      <li>Service records: dates, refrigerant added and recovered, leak rates, notes, and technician names with their Section 608 certification numbers.</li>
+      <li>Leak inspections and verification tests, including their results.</li>
+      <li>Technicians: names, Section 608 certification details and any photos of their cards you take.</li>
+      <li>Photos you take in the app and signatures you capture.</li>
+      <li>Your company profile and logo, and your app settings.</li>
+    </ul>
+    <p>This information is not sent to us, and we cannot see it. Some records contain details about other people, such as a customer's phone number or a technician's certification number, so please record only what you need for your work.</p>
+  </section>
+
+  <section aria-labelledby="leaves">
+    <h2 id="leaves">3. When information leaves your phone</h2>
+    <p>Only when you choose to send it:</p>
+    <ul class="plain">
+      <li><strong>Sharing a PDF or CSV.</strong> When you tap Share, Android's share sheet hands the file to the app you pick, such as email, messaging or Google Drive. That app then handles the file under its own privacy policy.</li>
+      <li><strong>Saving a backup.</strong> When you create a backup, you choose where to save it with Android's file picker, for example your own Google Drive.</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="perms">
+    <h2 id="perms">4. Permissions and why we ask</h2>
+    <table>
+      <thead><tr><th scope="col">Permission</th><th scope="col">Why</th></tr></thead>
+      <tbody>
+        <tr><td>Camera</td><td>To take photos of nameplates, leaks, repairs and technicians' certification cards, and to scan LeakLedger QR labels. QR codes are read on your phone. Photos are saved inside the app and are not uploaded.</td></tr>
+        <tr><td>Notifications</td><td>To remind you about repair deadlines, verification tests, leak inspections and yearly EPA reports. Reminders are scheduled on your phone, and the app asks only after you save your first record.</td></tr>
+        <tr><td>Internet and Google Play billing</td><td>Used by Google Play to show prices and manage your subscription. LeakLedger's own code does not send your records over the internet.</td></tr>
+      </tbody>
+    </table>
+    <p>LeakLedger does not ask for your location, contacts, microphone or photo library. When you add a company logo, Android's photo picker gives the app only the one image you choose.</p>
+  </section>
+
+  <section aria-labelledby="payments">
+    <h2 id="payments">5. Payments</h2>
+    <p>Subscriptions are sold and billed by Google Play. Google processes your payment and tells the app on your phone whether your subscription is active. We never see your card details. Google Play gives developers order records, such as an order number, the purchase date and the country, and we use them only for refunds, support and tax. Google's <a href="https://policies.google.com/privacy">Privacy Policy</a> applies to payments. Google Play's billing library, which the app uses to show prices and handle the purchase, may send diagnostic information about the purchase to Google; it does not contain your records.</p>
+  </section>
+
+  <section aria-labelledby="noads">
+    <h2 id="noads">6. No ads, no analytics, no tracking</h2>
+    <p>LeakLedger contains no advertising, analytics or crash-reporting SDKs, and it does not use the Android advertising ID. We don't build profiles and we don't sell or share data.</p>
+    <div class="callout">If you have chosen to share usage and diagnostics data with Google in your Android settings, Google may show us overall crash and performance statistics for the app in Google Play Console. These statistics do not contain your records.</div>
+  </section>
+
+  <section aria-labelledby="backups">
+    <h2 id="backups">7. Backups</h2>
+    <p>A LeakLedger backup is a single file encrypted with AES-GCM using a passphrase that only you know. We can't open your backups and we can't recover a forgotten passphrase, so keep it somewhere safe. You decide where the file is stored and who can access it.</p>
+  </section>
+
+  <section aria-labelledby="keep">
+    <h2 id="keep">8. How long information is kept</h2>
+    <p>Your records stay on your phone until you delete them or uninstall the app. LeakLedger shows how long EPA rules ask owners to keep each record (for example, at least three years). The app warns you before you delete a record early, but the choice is yours.</p>
+  </section>
+
+  <section aria-labelledby="delete">
+    <h2 id="delete">9. Deleting your information</h2>
+    <ul class="plain">
+      <li>Delete a customer, site, appliance or technician in the app. A customer's sites and appliances, and an appliance's records, are deleted with it.</li>
+      <li>Remove every record, photo and signature with <strong>Settings → Delete all records</strong>.</li>
+      <li>Uninstalling LeakLedger removes everything the app stored on your phone.</li>
+      <li>Files you shared or backups you saved elsewhere stay there. Delete them in the app or place where you saved them.</li>
+    </ul>
+    <p>Because we hold no copy of your records, there is nothing for us to delete on our side.</p>
+  </section>
+
+  <section aria-labelledby="children">
+    <h2 id="children">10. Children</h2>
+    <p>LeakLedger is a business tool for adults working in refrigeration and air conditioning. It is not directed at children under 13, and we do not knowingly collect information from children. In fact, we do not collect personal information from anyone.</p>
+  </section>
+
+  <section aria-labelledby="security">
+    <h2 id="security">11. Security</h2>
+    <p>Android keeps LeakLedger's storage private to the app. Backups are encrypted as described above. To protect your records, use a screen lock on your phone and keep your backup passphrase private.</p>
+  </section>
+
+  <section aria-labelledby="changes">
+    <h2 id="changes">12. Changes to this policy</h2>
+    <p>If we change how LeakLedger handles information, we will update this page and its effective date. We will also point out important changes in the app.</p>
+  </section>
+
+  <section aria-labelledby="contact">
+    <h2 id="contact">13. Contact</h2>
+    <p>Product Labs · <a href="mailto:productlabsbd@gmail.com">productlabsbd@gmail.com</a></p>
+    <p class="muted">LeakLedger is an independent app. It is not affiliated with or endorsed by the U.S. Environmental Protection Agency.</p>
+  </section>
+</main>
+
+<footer>
+  © Product Labs · LeakLedger Privacy Policy · Effective September 24, 2026
+</footer>
+</body>
+</html>
