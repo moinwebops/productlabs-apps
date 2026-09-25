@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lanebook Privacy Policy</title>
+<meta name="description" content="How Lanebook, the IFTA miles and fuel app by Product Labs, handles your data: records and location stay on your phone.">
+<meta name="color-scheme" content="light dark">
+<style>
+  :root {
+    --primary: #263238;
+    --accent: #FFB400;
+    --road: #263238;
+    --bg: #F6FAFD;
+    --surface: #FFFFFF;
+    --text: #171C1F;
+    --muted: #40484C;
+    --line: #C0C8CD;
+    --summary-bg: #FFF3DA;
+    --link: #263238;
+    --focus: #263238;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --primary: #FFC94D;
+      --accent: #FFB400;
+      --road: #263238;
+      --bg: #0F1417;
+      --surface: #1B2023;
+      --text: #DFE3E7;
+      --muted: #C0C8CD;
+      --line: #40484C;
+      --summary-bg: #2B2410;
+      --link: #FFC94D;
+      --focus: #FFC94D;
+    }
+  }
+  :root[data-theme="dark"] {
+    --primary: #FFC94D;
+    --accent: #FFB400;
+    --road: #263238;
+    --bg: #0F1417;
+    --surface: #1B2023;
+    --text: #DFE3E7;
+    --muted: #C0C8CD;
+    --line: #40484C;
+    --summary-bg: #2B2410;
+    --link: #FFC94D;
+    --focus: #FFC94D;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+  }
+  /* A strip of asphalt with a dashed road-yellow centre line. */
+  .band {
+    background-color: var(--road);
+    background-image: repeating-linear-gradient(90deg, var(--accent) 0 28px, transparent 28px 48px);
+    background-size: 100% 4px;
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    height: 14px;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 20px 48px;
+  }
+  header { margin-bottom: 24px; }
+  .app {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  .mark {
+    width: 48px;
+    height: 48px;
+    flex: none;
+    border-radius: 12px;
+    background: var(--road);
+    display: grid;
+    place-items: center;
+  }
+  .app-name {
+    font-family: Archivo, Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--primary);
+  }
+  h1, h2 {
+    font-family: Archivo, Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    color: var(--primary);
+    line-height: 1.25;
+  }
+  h1 { font-size: 30px; margin: 0 0 8px; }
+  h2 { font-size: 21px; margin: 36px 0 8px; }
+  p, ul { margin: 0 0 14px; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  .meta { color: var(--muted); font-size: 15px; margin: 0; }
+  .summary {
+    background: var(--summary-bg);
+    border-left: 6px solid var(--accent);
+    border-radius: 12px;
+    padding: 18px 20px 6px;
+    margin: 24px 0 8px;
+  }
+  .summary h2 { margin-top: 0; font-size: 19px; }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 4px 20px;
+    margin: 12px 0 16px;
+  }
+  .card dl { margin: 12px 0; }
+  .card dt { font-weight: 700; margin-top: 12px; }
+  .card dd { margin: 2px 0 0; color: var(--text); }
+  a { color: var(--link); text-decoration: underline; text-underline-offset: 2px; overflow-wrap: anywhere; }
+  a:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.92em; }
+  footer {
+    margin-top: 40px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 15px;
+  }
+</style>
+</head>
+<body>
+<div class="band" aria-hidden="true"></div>
+<main>
+  <header>
+    <div class="app">
+      <div class="mark" aria-hidden="true">
+        <svg width="30" height="30" viewBox="0 0 30 30" focusable="false">
+          <path d="M6 5.5h7.2c1 0 1.8.8 1.8 1.8V25c0-.9-.8-1.6-1.8-1.6H6z" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linejoin="round"/>
+          <path d="M24 5.5h-7.2c-1 0-1.8.8-1.8 1.8V25c0-.9.8-1.6 1.8-1.6H24z" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linejoin="round"/>
+          <line x1="15" y1="8" x2="15" y2="11" stroke="#FFB400" stroke-width="2" stroke-linecap="round"/>
+          <line x1="15" y1="14" x2="15" y2="17" stroke="#FFB400" stroke-width="2" stroke-linecap="round"/>
+          <line x1="15" y1="20" x2="15" y2="23" stroke="#FFB400" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <span class="app-name">Lanebook</span>
+    </div>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Effective 24 September 2026 · Developer: Product Labs</p>
+  </header>
+
+  <section class="summary" aria-labelledby="short">
+    <h2 id="short">The short version</h2>
+    <ul>
+      <li>Your trucks, trips, receipts and photos stay on your phone. Product Labs has no servers for Lanebook and never receives them.</li>
+      <li>Lanebook uses your location only while a trip you started is running, to split its miles by state and province on your phone. Your location is never uploaded.</li>
+      <li>No account, no ads, no analytics.</li>
+      <li>A record leaves your phone only when you share a report or save an encrypted backup.</li>
+      <li>Google Play handles subscription payments. We never see your card details.</li>
+    </ul>
+  </section>
+
+  <h2 id="who">1. Who we are</h2>
+  <p>Lanebook ("the app") helps truck drivers and small fleets keep the distance and fuel records that the International Fuel Tax Agreement (IFTA) asks for. It is made by Product Labs ("we", "us"). Lanebook is not an ELD and does not file tax returns. It is not affiliated with or endorsed by IFTA, Inc. or any state or provincial tax agency.</p>
+
+  <h2 id="stored">2. What Lanebook stores, and where</h2>
+  <p>Everything you enter or capture is saved in the app's private storage on your device, which other apps cannot read. This can include:</p>
+  <ul>
+    <li>Your company name, IFTA license number, base jurisdiction and logo.</li>
+    <li>Trucks: unit numbers, VIN, plate, fuel type and tank size.</li>
+    <li>Trips: dates, start and end places, route, odometer readings, driver name, the miles in each state or province, and the location points recorded while a trip was running.</li>
+    <li>Fuel receipts: date, place, truck stop, quantity, price, whether tax was included, invoice number and the photo you take.</li>
+    <li>Tax rates you type or import, and the quarterly figures Lanebook works out from them.</li>
+  </ul>
+  <p>We do not receive, sell or share any of this information. We cannot see it.</p>
+  <p><strong>Information about other people.</strong> Driver names you record belong to your business records and stay on your device. If someone asks about information you recorded about them, they should contact your business.</p>
+
+  <h2 id="location">3. Your location: only during trips you start</h2>
+  <ul>
+    <li><strong>When.</strong> Lanebook reads your location only after you tap <em>Start trip</em>, and only until you pause or end that trip. While it records, Android shows an ongoing "Trip in progress" notification. Lanebook does not ask for background location access, does not start trips by itself, and does not use your location when no trip is running.</li>
+    <li><strong>What for.</strong> The recorded points are compared, on your phone, with state and province outlines built into the app, to split the trip's miles by jurisdiction. Your odometer readings set the trip's total.</li>
+    <li><strong>Where it goes.</strong> Nowhere. The points are stored in the app's private storage with the trip. They are not sent to Product Labs, to Google or to anyone else. Lanebook reads location through Android itself, without advertising or analytics tools.</li>
+    <li><strong>Your control.</strong> You can allow only approximate location, pause a trip at any time, turn location off in your phone's settings, or skip trip mode and type the miles for each state yourself. Deleting a trip deletes its location points.</li>
+  </ul>
+
+  <h2 id="permissions">4. Permissions and why the app asks</h2>
+  <div class="card">
+    <dl>
+      <dt>Location (precise or approximate)</dt>
+      <dd>To record a trip you start and split its miles by state and province, as described above. Asked the first time you start a trip.</dd>
+      <dt>Foreground service</dt>
+      <dd>Lets the trip keep recording with its visible notification while you drive with the screen off. It stops when you pause or end the trip.</dd>
+      <dt>Notifications</dt>
+      <dd>For the ongoing trip notification and for reminders before a quarterly return is due. Reminders are created on your phone.</dd>
+      <dt>Camera</dt>
+      <dd>To photograph fuel receipts. Photos are saved in the app's private storage, not in your gallery.</dd>
+    </dl>
+  </div>
+  <p>You can refuse any of these or turn them off later in your phone's settings; Lanebook keeps working, and without location you type the miles per state instead. The app does not ask for background location, contacts, microphone, files or your photo library. When you add a logo or an existing receipt image, Android's photo picker lets you choose one image to share with the app.</p>
+
+  <h2 id="sharing">5. Sharing, exports and backups</h2>
+  <ul>
+    <li><strong>Sharing a report.</strong> When you share a quarterly summary (PDF or CSV), a receipts ZIP, a trip record or its location points, Android's share sheet sends it to the app or person you choose, such as email, a messaging app or cloud storage. That service's own privacy policy then applies.</li>
+    <li><strong>Encrypted backups.</strong> A Lanebook backup file (<code>.apexbak</code>) is encrypted on your device with a passphrase you choose (AES-GCM). You pick where to save it, for example Google Drive or a USB drive. We never receive the file or the passphrase, so we cannot recover a lost passphrase.</li>
+    <li><strong>Android device backup.</strong> Lanebook keeps its records out of Android's automatic cloud backup. Use Lanebook's encrypted backup to move records to a new phone.</li>
+  </ul>
+
+  <h2 id="billing">6. Subscriptions and Google Play Billing</h2>
+  <p>Subscriptions are sold through Google Play Billing. Google collects and processes your payment information under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>, and the billing library in the app exchanges purchase and technical information with Google Play to do its job. Lanebook never sees your card or bank details; the app only checks, on your device, whether your subscription is active. You can manage or cancel it anytime in Google Play under Payments &amp; subscriptions. If your subscription ends, you can still open and export your records.</p>
+
+  <h2 id="no-tracking">7. No ads, no analytics, no tracking</h2>
+  <p>Lanebook contains no advertising, no analytics and no crash-reporting tools from third parties, and it does not use your advertising ID. If you have chosen to share usage and diagnostics data with Google on your phone, Google may give us summary crash and performance statistics through Google Play Console. Those statistics do not include your records or your location.</p>
+
+  <h2 id="internet">8. Internet use</h2>
+  <p>Lanebook works fully offline, including trip recording, because the state and province outlines are built into the app. The app never uploads your records. Google Play uses the internet for purchases and app updates, and links such as this policy open in your own web browser.</p>
+
+  <h2 id="deleting">9. Keeping and deleting your records</h2>
+  <ul>
+    <li>You can delete any trip, receipt or truck in the app. IFTA records are generally kept for four years from a return's due date or filing date, whichever is later, so Lanebook warns you before you delete a record that is still inside that period. The app never deletes records on its own.</li>
+    <li>Uninstalling Lanebook deletes all app data from your device, including recorded location points. Files you exported or backed up stay wherever you saved them until you delete them.</li>
+    <li>Because we do not hold your data, there is nothing for us to delete on our side. You are welcome to contact us with any question.</li>
+  </ul>
+
+  <h2 id="children">10. Children</h2>
+  <p>Lanebook is a business tool for adults (18+) and is not directed to children. We do not knowingly collect personal information from children under 13.</p>
+
+  <h2 id="security">11. Security</h2>
+  <p>Android keeps each app's private storage separate from other apps. Protect your phone with a screen lock, and keep your backup passphrase somewhere safe. Backups are encrypted before they leave the app.</p>
+
+  <h2 id="rights">12. Your choices and rights</h2>
+  <p>You control your data on your device: you can view, correct, export or delete it at any time in the app, and you decide whether Lanebook may use your location. We do not sell or share personal information and do not use it for targeted advertising.</p>
+
+  <h2 id="changes">13. Changes to this policy</h2>
+  <p>If we change this policy, we will update this page and its effective date. Important changes will also be mentioned in the app's release notes.</p>
+
+  <h2 id="contact">14. Contact</h2>
+  <p>Product Labs · Email: <a href="mailto:productlabsbd@gmail.com">productlabsbd@gmail.com</a></p>
+
+  <footer>
+    <p>Lanebook is a record-keeping aid. The user is responsible for regulatory compliance. Not an ELD. Does not file returns.</p>
+    <p>© Product Labs</p>
+  </footer>
+</main>
+</body>
+</html>

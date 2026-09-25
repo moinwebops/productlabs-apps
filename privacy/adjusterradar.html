@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adjuster Radar Privacy Policy</title>
+<meta name="description" content="How Adjuster Radar, the license and CE tracker by Product Labs, handles your data: everything stays on your device.">
+<meta name="color-scheme" content="light dark">
+<style>
+  :root {
+    --primary: #4C3BCF;
+    --accent: #2EC4B6;
+    --mark-bg: #4C3BCF;
+    --bg: #FCF8FF;
+    --surface: #FFFFFF;
+    --text: #1C1B20;
+    --muted: #47464F;
+    --line: #C8C5D0;
+    --summary-bg: #E4DFFF;
+    --link: #4C3BCF;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --primary: #A99BFF;
+      --accent: #2EC4B6;
+      --mark-bg: #4C3BCF;
+      --bg: #131318;
+      --surface: #201F25;
+      --text: #E5E1E9;
+      --muted: #C8C5D0;
+      --line: #47464F;
+      --summary-bg: #201F25;
+      --link: #A99BFF;
+    }
+  }
+  :root[data-theme="dark"] {
+    --primary: #A99BFF;
+    --accent: #2EC4B6;
+    --mark-bg: #4C3BCF;
+    --bg: #131318;
+    --surface: #201F25;
+    --text: #E5E1E9;
+    --muted: #C8C5D0;
+    --line: #47464F;
+    --summary-bg: #201F25;
+    --link: #A99BFF;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+  }
+  .band {
+    background: var(--mark-bg);
+    height: 8px;
+    border-bottom: 4px solid var(--accent);
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 20px 48px;
+  }
+  header { margin-bottom: 24px; }
+  .app {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  .mark {
+    width: 48px;
+    height: 48px;
+    flex: none;
+    border-radius: 12px;
+    background: var(--mark-bg);
+    display: grid;
+    place-items: center;
+  }
+  .app-name {
+    font-family: "DM Sans", Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--primary);
+  }
+  h1, h2 {
+    font-family: "DM Sans", Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    color: var(--primary);
+    line-height: 1.25;
+  }
+  h1 { font-size: 30px; margin: 0 0 8px; }
+  h2 { font-size: 21px; margin: 36px 0 8px; }
+  p, ul { margin: 0 0 14px; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  .meta { color: var(--muted); font-size: 15px; margin: 0; }
+  .summary {
+    background: var(--summary-bg);
+    border-left: 6px solid var(--accent);
+    border-radius: 12px;
+    padding: 18px 20px 6px;
+    margin: 24px 0 8px;
+  }
+  .summary h2 { margin-top: 0; font-size: 19px; }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 4px 20px;
+    margin: 12px 0 16px;
+  }
+  .card dl { margin: 12px 0; }
+  .card dt { font-weight: 700; margin-top: 12px; }
+  .card dd { margin: 2px 0 0; color: var(--text); }
+  a { color: var(--link); text-decoration: underline; text-underline-offset: 2px; overflow-wrap: anywhere; }
+  a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.92em; }
+  footer {
+    margin-top: 40px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 15px;
+  }
+</style>
+</head>
+<body>
+<div class="band" aria-hidden="true"></div>
+<main>
+  <header>
+    <div class="app">
+      <div class="mark" aria-hidden="true">
+        <svg width="32" height="32" viewBox="0 0 32 32" focusable="false">
+          <circle cx="7" cy="9" r="1.3" fill="#FFFFFF" opacity="0.55"/>
+          <circle cx="11" cy="6.5" r="1.3" fill="#FFFFFF" opacity="0.55"/>
+          <circle cx="23" cy="24" r="1.3" fill="#FFFFFF" opacity="0.55"/>
+          <circle cx="26" cy="19.5" r="1.3" fill="#FFFFFF" opacity="0.55"/>
+          <circle cx="16" cy="16" r="11" fill="none" stroke="#FFFFFF" stroke-width="1.8"/>
+          <circle cx="16" cy="16" r="6" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.8"/>
+          <path d="M16 16 L16 5 A11 11 0 0 1 25.5 10.5 Z" fill="#2EC4B6"/>
+          <circle cx="21" cy="11.5" r="1.9" fill="#FFFFFF"/>
+          <circle cx="16" cy="16" r="1.6" fill="#FFFFFF"/>
+        </svg>
+      </div>
+      <span class="app-name">Adjuster Radar</span>
+    </div>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Effective 24 September 2026 · Developer: Product Labs</p>
+  </header>
+
+  <section class="summary" aria-labelledby="short">
+    <h2 id="short">The short version</h2>
+    <ul>
+      <li>Your licenses, CE records, certificates and ID card photos stay on your phone. Product Labs has no servers for Adjuster Radar and never receives them.</li>
+      <li>No account, no ads, no analytics, no location tracking.</li>
+      <li>A record leaves your phone only when you share a packet or a transcript, or save an encrypted backup.</li>
+      <li>Google Play handles subscription payments. We never see your card details.</li>
+    </ul>
+  </section>
+
+  <h2 id="who">1. Who we are</h2>
+  <p>Adjuster Radar ("the app") helps insurance adjusters keep track of their state licenses, continuing education and certifications. It is made by Product Labs ("we", "us"). Adjuster Radar is not affiliated with or endorsed by FEMA, NIPR, the NAIC, any state insurance department or any insurance carrier, and it does not look up or confirm licenses with any of them.</p>
+
+  <h2 id="stored">2. What Adjuster Radar stores, and where</h2>
+  <p>Everything you enter or capture is saved in the app's private storage on your device, which other apps cannot read. This can include:</p>
+  <ul>
+    <li>Your profile: name, National Producer Number (NPN), resident and designated home states, email, phone and company.</li>
+    <li>Licenses: state, license number, lines of authority, residency, dates, photos of the license certificate, your notes on the state's rules and a link to the state's insurance department website.</li>
+    <li>Continuing education: course titles, providers, dates, hours and photos or PDFs of completion certificates.</li>
+    <li>Certifications, such as a flood adjuster credential number, with their dates and photos.</li>
+    <li>Photos of your ID card, if you choose to add them.</li>
+    <li>Renewal checklists, reminders and the settings you choose.</li>
+  </ul>
+  <p>We do not receive, sell or share any of this information. We cannot see it. Adjuster Radar does not use your location.</p>
+  <p><strong>Your ID and license numbers.</strong> An ID card photo, your NPN and license numbers are personal information. They never leave your phone unless you share a packet that includes them. Keep your phone protected with a screen lock, and turn on Adjuster Radar's app lock if others use your phone.</p>
+
+  <h2 id="permissions">3. Permissions and why the app asks</h2>
+  <div class="card">
+    <dl>
+      <dt>Camera</dt>
+      <dd>To photograph license certificates, course certificates and your ID card. Photos are saved in the app's private storage, not in your gallery.</dd>
+      <dt>Notifications</dt>
+      <dd>For reminders before a license, certification or CE due date. Reminders are created on your phone.</dd>
+      <dt>Fingerprint, face or screen lock (optional)</dt>
+      <dd>Only if you turn on the app lock. Android checks your fingerprint, face or PIN itself; the app only learns whether unlocking worked and never receives biometric data.</dd>
+    </dl>
+  </div>
+  <p>You can refuse any of these or turn them off later in your phone's settings, and Adjuster Radar keeps working. The app does not ask for your location, contacts, microphone or photo library. When you add a photo or a PDF from your files, Android's picker lets you choose the item to share with the app.</p>
+
+  <h2 id="sharing">4. Sharing, exports and backups</h2>
+  <ul>
+    <li><strong>Sharing a packet or transcript.</strong> When you share a deployment packet (PDF or ZIP) or a CE transcript, Android's share sheet sends it to the app or person you choose, such as email, a messaging app or cloud storage. That service's own privacy policy then applies. A packet includes your ID card photo only if you leave that option on, and the app reminds you before you share it.</li>
+    <li><strong>Encrypted backups.</strong> An Adjuster Radar backup file (<code>.apexbak</code>) is encrypted on your device with a passphrase you choose (AES-GCM). You pick where to save it, for example Google Drive or a USB drive. We never receive the file or the passphrase, so we cannot recover a lost passphrase.</li>
+    <li><strong>Android device backup.</strong> Adjuster Radar keeps its records out of Android's automatic cloud backup. Use Adjuster Radar's encrypted backup to move records to a new phone.</li>
+  </ul>
+
+  <h2 id="billing">5. Subscriptions and Google Play Billing</h2>
+  <p>Subscriptions are sold through Google Play Billing. Google collects and processes your payment information under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>, and the billing library in the app exchanges purchase and technical information with Google Play to do its job. Adjuster Radar never sees your card or bank details; the app only checks, on your device, whether your subscription is active. You can manage or cancel it anytime in Google Play under Payments &amp; subscriptions. If your subscription ends, you can still open and export all your records.</p>
+
+  <h2 id="no-tracking">6. No ads, no analytics, no tracking</h2>
+  <p>Adjuster Radar contains no advertising, no analytics and no crash-reporting tools from third parties, and it does not use your advertising ID. If you have chosen to share usage and diagnostics data with Google on your phone, Google may give us summary crash and performance statistics through Google Play Console. Those statistics do not include your records.</p>
+
+  <h2 id="internet">7. Internet use</h2>
+  <p>Adjuster Radar works fully offline, and the app never uploads your records. Google Play uses the internet for purchases and app updates. Links to state insurance department websites, and to the NAIC's public directory of those departments, open in your own web browser.</p>
+
+  <h2 id="screens">8. Screenshots and screen sharing</h2>
+  <p>By default, the app blocks screenshots, screen recording and screen sharing on screens that show your ID card or a certificate photo, including a packet preview that contains those photos. You can change this in the app's privacy settings. To send your documents, use the Share button instead.</p>
+
+  <h2 id="deleting">9. Keeping and deleting your records</h2>
+  <ul>
+    <li>You can delete any license, course, certification or your ID card photo in the app at any time. The app never deletes records on its own.</li>
+    <li>Uninstalling Adjuster Radar deletes all app data from your device. Files you exported or backed up stay wherever you saved them until you delete them.</li>
+    <li>Because we do not hold your data, there is nothing for us to delete on our side. You are welcome to contact us with any question.</li>
+  </ul>
+
+  <h2 id="children">10. Children</h2>
+  <p>Adjuster Radar is a professional tool for adults (18+) and is not directed to children. We do not knowingly collect personal information from children under 13.</p>
+
+  <h2 id="security">11. Security</h2>
+  <p>Android keeps each app's private storage separate from other apps. The optional app lock adds a second check when the app opens, and backups are encrypted before they leave the app. Protect your phone with a screen lock, and keep your backup passphrase somewhere safe.</p>
+
+  <h2 id="rights">12. Your choices and rights</h2>
+  <p>You control your data on your device: you can view, correct, export or delete it at any time in the app. We do not sell or share personal information and do not use it for targeted advertising.</p>
+
+  <h2 id="changes">13. Changes to this policy</h2>
+  <p>If we change this policy, we will update this page and its effective date. Important changes will also be mentioned in the app's release notes.</p>
+
+  <h2 id="contact">14. Contact</h2>
+  <p>Product Labs · Email: <a href="mailto:productlabsbd@gmail.com">productlabsbd@gmail.com</a></p>
+
+  <footer>
+    <p>Adjuster Radar is a record-keeping aid. The user is responsible for regulatory compliance.</p>
+    <p>© Product Labs</p>
+  </footer>
+</main>
+</body>
+</html>
