@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unitchart Privacy Policy</title>
+<meta name="description" content="How Unitchart, the injector charting app by Product Labs, handles client records: encrypted on your device, never sent to us.">
+<meta name="color-scheme" content="light dark">
+<style>
+  :root {
+    --primary: #7A3E65;
+    --accent: #D8A48F;
+    --mark-bg: #4F1F3D;
+    --bg: #FFF8F9;
+    --surface: #FFFFFF;
+    --text: #22191F;
+    --muted: #54434D;
+    --line: #D8C2CD;
+    --summary-bg: #FBEAF2;
+    --link: #7A3E65;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --primary: #E7A3C8;
+      --accent: #F1BAA5;
+      --mark-bg: #4F1F3D;
+      --bg: #181115;
+      --surface: #241B21;
+      --text: #EEDFE6;
+      --muted: #D6C1CC;
+      --line: #54434D;
+      --summary-bg: #2E1F29;
+      --link: #E7A3C8;
+    }
+  }
+  :root[data-theme="dark"] {
+    --primary: #E7A3C8;
+    --accent: #F1BAA5;
+    --mark-bg: #4F1F3D;
+    --bg: #181115;
+    --surface: #241B21;
+    --text: #EEDFE6;
+    --muted: #D6C1CC;
+    --line: #54434D;
+    --summary-bg: #2E1F29;
+    --link: #E7A3C8;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+  }
+  .band {
+    background: var(--mark-bg);
+    height: 8px;
+    border-bottom: 4px solid var(--accent);
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 20px 48px;
+  }
+  header { margin-bottom: 24px; }
+  .app {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  .mark {
+    width: 48px;
+    height: 48px;
+    flex: none;
+    border-radius: 12px;
+    background: var(--mark-bg);
+    display: grid;
+    place-items: center;
+  }
+  .app-name {
+    font-family: Fraunces, Georgia, "Times New Roman", serif;
+    font-weight: 600;
+    font-size: 21px;
+    color: var(--primary);
+  }
+  h1, h2 {
+    font-family: Fraunces, Georgia, "Times New Roman", serif;
+    font-weight: 600;
+    color: var(--primary);
+    line-height: 1.25;
+  }
+  h1 { font-size: 30px; margin: 0 0 8px; }
+  h2 { font-size: 21px; margin: 36px 0 8px; }
+  p, ul { margin: 0 0 14px; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  .meta { color: var(--muted); font-size: 15px; margin: 0; }
+  .summary {
+    background: var(--summary-bg);
+    border-left: 6px solid var(--accent);
+    border-radius: 12px;
+    padding: 18px 20px 6px;
+    margin: 24px 0 8px;
+  }
+  .summary h2 { margin-top: 0; font-size: 19px; }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 4px 20px;
+    margin: 12px 0 16px;
+  }
+  .card dl { margin: 12px 0; }
+  .card dt { font-weight: 700; margin-top: 12px; }
+  .card dd { margin: 2px 0 0; color: var(--text); }
+  a { color: var(--link); text-decoration: underline; text-underline-offset: 2px; overflow-wrap: anywhere; }
+  a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.92em; }
+  footer {
+    margin-top: 40px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 15px;
+  }
+</style>
+</head>
+<body>
+<div class="band" aria-hidden="true"></div>
+<main>
+  <header>
+    <div class="app">
+      <div class="mark" aria-hidden="true">
+        <svg width="30" height="30" viewBox="30 14 140 204" focusable="false">
+          <path d="M100 20 C122 20 142 28 152 44 C160 58 161 76 160 92 C160 104 162 114 160 126 C158 142 154 156 147 170 C140 184 130 197 118 205 C112 209 106 211 100 211 C94 211 88 209 82 205 C70 197 60 184 53 170 C46 156 42 142 40 126 C38 114 40 104 40 92 C39 76 40 58 48 44 C58 28 78 20 100 20 Z" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linejoin="round"/>
+          <circle cx="100" cy="64" r="12" fill="#F1BAA5"/>
+          <circle cx="76" cy="78" r="12" fill="#F1BAA5"/>
+          <circle cx="124" cy="78" r="12" fill="#F1BAA5"/>
+          <circle cx="68" cy="130" r="12" fill="#F1BAA5"/>
+          <circle cx="132" cy="130" r="12" fill="#F1BAA5"/>
+        </svg>
+      </div>
+      <span class="app-name">Unitchart</span>
+    </div>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Effective 25 September 2026 · Developer: Product Labs</p>
+  </header>
+
+  <section class="summary" aria-labelledby="short">
+    <h2 id="short">The short version</h2>
+    <ul>
+      <li>Client records, face charts, consent forms, signatures and photos stay on your phone, encrypted. Product Labs has no servers for Unitchart and never receives them.</li>
+      <li>You, the practitioner or clinic, stay in charge of your clients' information and responsible for your data protection duties.</li>
+      <li>No account, no ads, no analytics, no location tracking.</li>
+      <li>A record leaves your phone only when you share a PDF or CSV, or save an encrypted backup.</li>
+      <li>Google Play handles subscription payments. We never see your card details.</li>
+    </ul>
+  </section>
+
+  <h2 id="who">1. Who we are</h2>
+  <p>Unitchart ("the app") helps practitioners who give aesthetic injectable treatments keep treatment records: face charts, product lots, consent and photos. It is made by Product Labs ("we", "us"). Unitchart is not affiliated with or endorsed by any regulator, professional body or product manufacturer. It is a record-keeping aid, not a medical device, and it does not diagnose, treat, cure or prevent any medical condition.</p>
+
+  <h2 id="controller">2. Your clients' information is yours</h2>
+  <p>The practitioner or clinic that uses Unitchart decides what client information to record and why. Under UK and EU data protection law that makes you the data controller; in the United States, HIPAA may treat you as a covered entity. You remain responsible for those obligations, including telling your clients how you keep their records. Because Product Labs never receives, stores or can open the records you keep in Unitchart, we do not process them on your behalf. Unitchart makes no compliance claims.</p>
+
+  <h2 id="stored">3. What Unitchart stores, and where</h2>
+  <p>Everything you enter or capture is saved in the app's private storage on your device, which other apps cannot read, and is encrypted there (see section 5). This can include:</p>
+  <ul>
+    <li>Your clinic profile and logo, and practitioner and prescriber names.</li>
+    <li>Client details: name, date of birth, phone, email, address, answers to your medical history questions, allergies, medicines and notes.</li>
+    <li>Consent records: the form text and version, the treatment discussed, photo choices, and the client's signature or a photo of a signed paper form.</li>
+    <li>Treatment records: face charts with each injection point, products, lot numbers and expiry dates, diluent notes, reviews and aftercare notes.</li>
+    <li>Before and after photos of clients' faces.</li>
+    <li>Your product and lot list, including codes read from box barcodes.</li>
+    <li>A deletion register: the name of a client whose record you removed, when, and the period it covered.</li>
+  </ul>
+  <p>We do not receive, sell or share any of this information. We cannot see it. Unitchart does not use your location.</p>
+  <p><strong>Clients' requests.</strong> If a client asks to see, correct or remove information about them, they should contact their practitioner or clinic. Unitchart lets you open, edit, export (client history PDF) or delete a client's record.</p>
+
+  <h2 id="permissions">4. Permissions and why the app asks</h2>
+  <div class="card">
+    <dl>
+      <dt>Camera</dt>
+      <dd>To take before and after photos, photograph a signed paper consent form and scan the barcode on a product box. Scanning happens on your device. Photos are encrypted in the app's private storage and never go to your gallery.</dd>
+      <dt>Notifications</dt>
+      <dd>For reminders when a client review is due or a product lot is close to expiry. Reminders are created on your phone and never show a client's name.</dd>
+      <dt>Fingerprint, face or screen lock</dt>
+      <dd>Optional, to unlock Unitchart with your phone's own biometrics or screen lock. Android checks this; the app never receives your fingerprint or face data.</dd>
+    </dl>
+  </div>
+  <p>You can refuse the camera or notifications, or turn them off later in your phone's settings, and Unitchart keeps working. The app does not ask for your location, contacts, microphone, files or photo library. When you add a clinic logo from your photos, Android's photo picker lets you choose one image to share with the app.</p>
+
+  <h2 id="security">5. How Unitchart protects records</h2>
+  <ul>
+    <li><strong>Encryption on the device.</strong> Client records, photos and signatures are encrypted with AES-256-GCM. The key is protected by your phone's Android Keystore and never leaves the device.</li>
+    <li><strong>App lock.</strong> Unitchart asks for your PIN (stored only as a salted hash) or, if you allow it, your phone's fingerprint, face or screen lock. It locks again after the time you choose (2 minutes by default) away from the app or without a touch.</li>
+    <li><strong>Screen security.</strong> Screens with client information are hidden from screenshots, screen recording and the recent-apps preview. You can switch this off in Settings, for example to send a screenshot to support.</li>
+    <li><strong>Forgotten PIN.</strong> You can choose a new PIN after confirming your phone's screen lock, or erase Unitchart's data on the phone and restore your last backup.</li>
+  </ul>
+  <p>No security is perfect. Protect your phone with a screen lock, keep it updated, and keep your backup passphrase somewhere safe.</p>
+
+  <h2 id="sharing">6. Sharing, exports and backups</h2>
+  <ul>
+    <li><strong>Sharing a record.</strong> When you share a treatment record, consent form, client history or recall list (PDF or CSV), Android's share sheet sends it to the app or person you choose, such as email or a messaging app. Shared PDFs are marked "Confidential" but are not encrypted by Unitchart, so use a channel your clinic trusts for health information. The receiving service's own privacy policy then applies. The temporary copy made for sharing is removed from the app's cache the next time you open Unitchart after 30 minutes.</li>
+    <li><strong>Encrypted backups.</strong> A Unitchart backup file (<code>.apexbak</code>) is encrypted on your device with a passphrase you choose (AES-GCM). You pick where to save it, for example Google Drive or a USB drive. We never receive the file or the passphrase, so we cannot recover a lost passphrase.</li>
+    <li><strong>Android device backup.</strong> Unitchart keeps its records out of Android's automatic cloud backup and device-to-device transfer. Use Unitchart's encrypted backup to move records to a new phone.</li>
+  </ul>
+
+  <h2 id="billing">7. Subscriptions and Google Play Billing</h2>
+  <p>Subscriptions are sold through Google Play Billing. Google collects and processes your payment information under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>, and the billing library in the app exchanges purchase and technical information with Google Play to do its job. Unitchart never sees your card or bank details; the app only checks, on your device, whether your subscription is active. You can manage or cancel it anytime in Google Play under Payments &amp; subscriptions. If your subscription ends, you can still open and export every record.</p>
+
+  <h2 id="no-tracking">8. No ads, no analytics, no tracking</h2>
+  <p>Unitchart contains no advertising, no analytics and no crash-reporting tools from third parties, and it does not use your advertising ID. If you have chosen to share usage and diagnostics data with Google on your phone, Google may give us summary crash and performance statistics through Google Play Console. Those statistics do not include your records.</p>
+
+  <h2 id="internet">9. Internet use</h2>
+  <p>Unitchart works fully offline and never uploads your records. Google Play uses the internet for purchases and app updates. Links to side-effect reporting pages (MHRA Yellow Card, HPRA, TGA, FDA MedWatch) open in your own web browser; the app sends nothing to them.</p>
+
+  <h2 id="deleting">10. Keeping and deleting records</h2>
+  <ul>
+    <li>Health record rules often ask practitioners to keep records for years. Unitchart shows a suggested keep-until date based on the region you choose, or your own period, and asks you to confirm twice before deleting a client inside that period. The app never deletes records on its own.</li>
+    <li>Uninstalling Unitchart, or "Erase data" from the lock screen, deletes all app data from your device. Files you exported or backed up stay wherever you saved them until you delete them.</li>
+    <li>Because we do not hold your data, there is nothing for us to delete on our side. You are welcome to contact us with any question.</li>
+  </ul>
+
+  <h2 id="children">11. Children</h2>
+  <p>Unitchart is a professional tool for adult practitioners (18+) and is not directed to children. We do not knowingly collect personal information from anyone, including children. Records a practitioner keeps about a client of any age stay on the practitioner's device.</p>
+
+  <h2 id="rights">12. Your choices and rights</h2>
+  <p>You control your data on your device: you can view, correct, export or delete it at any time in the app. We do not sell or share personal information and do not use it for targeted advertising.</p>
+
+  <h2 id="changes">13. Changes to this policy</h2>
+  <p>If we change this policy, we will update this page and its effective date. Important changes will also be mentioned in the app's release notes.</p>
+
+  <h2 id="contact">14. Contact</h2>
+  <p>Product Labs · Email: <a href="mailto:productlabsbd@gmail.com">productlabsbd@gmail.com</a></p>
+
+  <footer>
+    <p>Unitchart is a record-keeping aid. The user is responsible for regulatory compliance.</p>
+    <p>© Product Labs</p>
+  </footer>
+</main>
+</body>
+</html>
